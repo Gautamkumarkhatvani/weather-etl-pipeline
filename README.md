@@ -82,12 +82,3 @@ FROM weather_data
 GROUP BY city;
 ```
 
----
-
-## 🔥 Future Improvements
-
-- Apache Airflow integration
-- Docker support
-- Power BI dashboard
-- Multi-city support
-- Real-time alerts
