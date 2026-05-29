@@ -2,7 +2,7 @@ from sqlalchemy import create_engine
 import os
 from dotenv import load_dotenv
 from scripts.logger import logger
-
+# load environment variables from .env file
 load_dotenv()
 
 DB_USER = os.getenv("DB_USER")
