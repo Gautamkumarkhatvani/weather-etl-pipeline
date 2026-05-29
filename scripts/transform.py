@@ -1,7 +1,7 @@
 import pandas as pd
 from scripts.logger import logger
 
-def transform_weather_data(data, city="Pune"):
+def transform_weather_data(data, city="pune"):
 
     try:
 

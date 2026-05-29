@@ -7,7 +7,7 @@ load_dotenv()
 
 API_KEY = os.getenv("API_KEY")
 
-def extract_weather_data(city="Pune"):
+def extract_weather_data(city="pune"):
 
     try:
 
