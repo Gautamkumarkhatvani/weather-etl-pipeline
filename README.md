@@ -1,4 +1,4 @@
-# Weather ETL Pipeline 🌦️
+# Weather ETL Pipeline 
 
 Automated ETL pipeline built using Python and PostgreSQL to fetch, transform, and store real-time weather data from OpenWeather API.
 
