@@ -1,9 +1,12 @@
+print("MAIN.PY STARTED")
 from scripts.extract import extract_weather_data
 from scripts.transform import transform_weather_data
 from scripts.load import load_weather_data
 from scripts.logger import logger
+from scripts.init_db import *
 
 def run_pipeline():
+    print("PIPELINE RUNNING")
 
     logger.info("Pipeline started")
 

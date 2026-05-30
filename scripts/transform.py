@@ -3,6 +3,8 @@ from scripts.logger import logger
 
 def transform_weather_data(data, city="pune"):
 
+
+
     try:
 
         weather_data = {
